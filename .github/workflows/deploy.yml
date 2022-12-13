@@ -30,5 +30,6 @@ jobs:
 
     - name: update lambda function
       run: |
+        zip -j deploy.zip ./dist/*
         aws lambda update-function-code --function-name=web-app --zip-file=fileb://deploy.zip
         
