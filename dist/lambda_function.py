@@ -30,8 +30,8 @@ def lambda_handler(event, context):
     </head>
     <body>
       <div align="center">
-        <h1> Congratulations! Viewer</h1>
-        <h2>This application was deployed </h2>
+        <h1> Success!!</h1>
+        <h2>This application is deployed </h2>
         <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
       </div>
     </body>
